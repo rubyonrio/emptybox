@@ -15,4 +15,5 @@ describe 'The HelloWorld App' do
     last_response.should be_ok
     last_response.body.strip.should == 'TESTE'
   end
+
 end
